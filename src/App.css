@@ -1,0 +1,18 @@
+
+@media screen and (min-width: 1020px) {
+    .err {
+        display: none;
+    }
+    .play {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1019px) {
+    .play {
+        display: none;
+    }
+    .err {
+        display: grid;
+    }
+}
