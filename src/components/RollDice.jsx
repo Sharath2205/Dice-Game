@@ -4,7 +4,7 @@ const RollDice = ({ rollDice, randomDice }) => {
   return (
     <DiceContainer>
       <div className="dice" onClick={rollDice}>
-        <img src={`src/assets/images/dice_${randomDice}.png`} alt="" />
+        <img src={`/src/assets/images/dice_${randomDice}.png`} alt="" />
       </div>
       <p>Click on Dice to roll</p>
     </DiceContainer>
