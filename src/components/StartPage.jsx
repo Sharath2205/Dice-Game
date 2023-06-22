@@ -1,11 +1,13 @@
 import styled from "styled-components";
 import { Button } from "./styled/button";
 
+import Logo from "../assets/images/Logo.png";
+
 const StartPage = ({ isStartGame }) => {
   return (
     <Container>
       <div className="Logo">
-        <img src="./src/assets/images/Logo.png" alt="Logo Png" />
+        <img src={Logo} alt="Logo Png" />
       </div>
       <div className="details">
         <h1>DICE GAME</h1>
