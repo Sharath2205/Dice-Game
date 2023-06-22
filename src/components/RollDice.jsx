@@ -11,7 +11,7 @@ const RollDice = ({ rollDice, randomDice }) => {
   return (
     <DiceContainer>
       <div className="dice" onClick={rollDice}>
-        <img src={images[randomDice + 1]} alt={`Dice ${randomDice}`} />
+        <img src={images[randomDice - 1]} alt={`Dice ${randomDice}`} />
       </div>
       <p>Click on Dice to roll</p>
     </DiceContainer>
