@@ -5,7 +5,7 @@ const StartPage = ({ isStartGame }) => {
   return (
     <Container>
       <div className="Logo">
-        <img src="/src/assets/images/Logo.png" alt="Logo Png" />
+        <img src="./src/assets/images/Logo.png" alt="Logo Png" />
       </div>
       <div className="details">
         <h1>DICE GAME</h1>
